@@ -12,3 +12,7 @@ git restore --worktree <filename>
 git commit -m "hard commit" (this will bring back the commited file to unstaged area with changes)
 git commit -m "soft commit" (this will bring back the commited file to staged area with no changes)
 git show
+git log -p -1
+git log --stat
+git log --pretty=oneline
+git log --pretty=format:"%h - %an, %ar:%s"
