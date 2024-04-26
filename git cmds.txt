@@ -1,0 +1,14 @@
+GIT Commands
+git-config --global username "mahemouli"
+git-config --global usermail "email"
+git add <filename>
+git commit -m <commit msg> <filename>
+git branch
+git log 
+git checkout
+git restore --staged <filename> ( this will bring back the wrong changes back to staged area)
+git restore <filename> ( this will bring back the file to unstaged area)
+git restore --worktree <filename> 
+git commit -m "hard commit" (this will bring back the commited file to unstaged area with changes)
+git commit -m "soft commit" (this will bring back the commited file to staged area with no changes)
+git show
