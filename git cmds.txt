@@ -22,6 +22,17 @@ git log --since="yy-mm-dd"
 git log --until="yy-mm-dd"
 git log --author="name"
 git log --no-merges
+git branch <filename>
+git checkout <branchname>
+git merge
+git clone
+git ignore (create a file .gitignore in json format & the required files which are not to be committed)
+git clean -n
+git clean -f
+git tag -a <version-name> -m "commit msg"
+git show <version-name>
+git push origin --tags
 
 
+ 
 
