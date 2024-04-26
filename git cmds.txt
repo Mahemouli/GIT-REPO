@@ -16,3 +16,10 @@ git log -p -1
 git log --stat
 git log --pretty=oneline
 git log --pretty=format:"%h - %an, %ar:%s"
+git log --grep="<commit msg>"
+git log --since="yy-mm-dd"
+git log --until="yy-mm-dd"
+git log --author="name"
+git log --no-merges
+
+
