@@ -1,4 +1,4 @@
-GIT Commands
+GIT COMMANDS
 git-config --global username "mahemouli"
 git-config --global usermail "email"
 git add <filename>
